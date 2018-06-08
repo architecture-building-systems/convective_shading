@@ -1,5 +1,5 @@
 """
-Main file to run the simulaion
+convective calculation
 
 """
 
