@@ -9,3 +9,14 @@ Software uses analytical natural convection equations, combined with a resistive
 Typo in the whiteboard sketch
 Q should be h (heat transfer coefficient, not heat transfer)
 
+
+Software architecture concept
+
+```
+- radiation.py
+- conection.py
+- resistive model.py
+- venilation.py
+```
+`main` runs an itterative steps until solution converges to a steady state value
+
