@@ -18,5 +18,9 @@ Software architecture concept
 - resistive model.py
 - venilation.py
 ```
-`main` runs an itterative steps until solution converges to a steady state value
+`main runs an itterative steps until solution converges to a steady state value
+
+# References
+
+https://www.sfu.ca/~mbahrami/ENSC%20388/Notes/Natural%20Convection.pdf
 
