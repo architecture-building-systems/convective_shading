@@ -5,5 +5,5 @@ Natural convection algorithm to calculate the performance of an adaptive interna
 
 Software uses analytical natural convection equations, combined with a resistive thermodynamic model to evaluate the steady state performance of an internal shading system with exposure to the outside air
 
-![Equations](./Images/whiteboard.jpg)
+![Equations](./images/whiteboard.jpg)
 
