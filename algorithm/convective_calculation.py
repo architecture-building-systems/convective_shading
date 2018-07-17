@@ -50,6 +50,7 @@ def calculate_nusselt(rayleigh):
     return nusselt
 
 def calculate_convective_coefficient(nusselt, conductivity_air, height):
+    #Calculates the convective coefficient h
     convective_coefficient = nusselt * conductivity_air / height
     return convective_coefficient
 
@@ -61,7 +62,7 @@ def calculate_heat_transfer(convective_coefficient, t_surface, t_inf):
 
 if __name__ == "__main__":
     h = solve_convective_coefficient(t_surface=50+273., t_inf=30+273., gravity=9.81, height = 4., viscosity= 1.65 * 10**(-5), conductivity_air = 0.02685, prandalt = 0.7)
-    print h
+    print('h = ', h)
 
 #def constants():
 #     prandalt = 0.7 #prandalt Number for air around 300K
